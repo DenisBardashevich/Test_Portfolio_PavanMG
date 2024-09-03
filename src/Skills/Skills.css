@@ -1,0 +1,26 @@
+.Skills{
+    margin-right: 201px;
+}
+.Teach_stack{
+    display: flex;
+    flex-direction: column;
+    margin-left: 422px;
+    
+
+}
+
+.Stack{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 700;
+line-height: 26px;
+
+
+}
+
+.Skills_icons {
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+    gap: 102px; 
+    justify-items: center;
+}

@@ -1,0 +1,57 @@
+.Header{
+    margin-top: 41px;
+    display: flex;
+    
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    align-items: center;
+    
+    
+}
+
+
+.Header_nav {
+
+    
+
+
+    ul {
+    
+    display: flex;
+    list-style: none;
+    margin-left: 306px;
+    padding: 0px;
+    
+
+    li {
+        list-style-type: none;
+
+    }
+    a {
+        color: black;
+        position: relative;
+    }
+
+}}
+
+.About{
+    margin-left: 67px;
+}
+.Tech_Stack {
+    margin-left: 63px;
+}
+.Projects{
+    margin-left: 54px;
+}
+.Contact{
+    margin-left: 50px;
+}
+
+.Header_socials{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+    margin-left: 51px;
+}

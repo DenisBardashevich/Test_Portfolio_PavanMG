@@ -1,0 +1,19 @@
+.Title {
+    margin: 220px 219px 348px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+
+    p {
+        max-width: 636px;
+        font-family: Poppins;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+        text-align: left;
+
+    }
+}
