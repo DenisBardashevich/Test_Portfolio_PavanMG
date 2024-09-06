@@ -1,5 +1,5 @@
 import './Header.css'
-import Logo from './../../public/Logo.svg'
+import Logo from '/Logo.svg'
 import GitHub from './img/GitHub.svg'
 import Linkedin from './img/linkedin.svg'
 import Twitter from './img/Twitter.svg'
