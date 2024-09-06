@@ -1,5 +1,5 @@
 .Title {
-    margin: 220px 219px 348px 0px;
+    margin: 205px 0px 250px 0px;
     display: flex;
     justify-content: space-between;
 
@@ -8,12 +8,27 @@
 
     p {
         max-width: 636px;
+        text-align: center;
+        
         font-family: Poppins;
         font-size: 58px;
         font-weight: 700;
-        line-height: 70px;
+        line-height: 73px;
         letter-spacing: -1px;
         text-align: left;
+        position: relative;
+            span{
+                position: absolute;
+                top: -6px;
+                
+            }
+        
 
+    }
+    img{
+        position: absolute;
+        height: 365px;
+        left: 1023px;
+        top: 335px;
     }
 }

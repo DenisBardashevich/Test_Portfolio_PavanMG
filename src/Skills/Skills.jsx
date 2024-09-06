@@ -35,8 +35,8 @@ const Skills = () => {
     return (
         <><div className="Skills">
             <div className="Teach_stack">
-                <p className='Stack'>My Tech Stack</p>
-                <p> Technologies I’ve been working with recently</p>
+                <p className='Teach_stack_up'>My Tech Stack</p>
+                <p className='Teach_stack_down'> Technologies I’ve been working with recently</p>
             </div>
             <div className="Skills_icons">
                 {skillsData.map((skill, index) => (

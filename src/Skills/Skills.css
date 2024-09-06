@@ -1,26 +1,51 @@
-.Skills{
+.Skills {
     margin-right: 201px;
+
 }
-.Teach_stack{
+
+.Teach_stack {
     display: flex;
     flex-direction: column;
-    margin-left: 422px;
     
+    
+
 
 }
 
-.Stack{
+.Teach_stack_up {
     font-family: Poppins;
-font-size: 48px;
-font-weight: 700;
-line-height: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 422px;
+
+
+}
+
+.Teach_stack_down {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 255px;
+    margin-top: 0px;
+    margin-bottom: 140px;
+
+    
 
 
 }
 
 .Skills_icons {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 102px; 
-    justify-items: center;
+    grid-template-rows: repeat(2, 90px);
+    gap: 98px;
+    margin-right: -35px;
+   
+    align-items: start  ; /* Выравнивание по нижней части */
+    justify-items: center; /* Центрирование по горизонтали */
 }
+    
+    
+    

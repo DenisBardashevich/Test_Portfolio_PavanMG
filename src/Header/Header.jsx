@@ -14,7 +14,7 @@ const Header = () => {
                         <li> <a className='Home' href="#">Home</a></li>
                         <li> <a className='About' href="#">About</a></li>
                         <li> <a className='Tech_Stack' href="#">Tech Stack</a></li>
-                        <li> <a className='Projects' href="#">Projets</a></li>
+                        <li> <a className='Projects_li' href="#">Projects</a></li>
                         <li> <a className='Contact' href="#">Contact</a></li>
                         <li className='Header_socials'> <a href="#"><img src={GitHub} alt="GitHub" /></a>
 

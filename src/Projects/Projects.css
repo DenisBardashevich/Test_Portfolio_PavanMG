@@ -1,11 +1,20 @@
+.Projects {
+
+    margin: 240px 0px 96px 0;
+    
+
+}
+
 .Projects_name {
-    margin-top: 206px;
+
 
     font-family: Poppins;
     font-size: 48px;
     font-weight: 700;
     line-height: 26px;
-    text-align: center;
+    margin-left: 500px;
+    
+
 
 }
 
@@ -16,7 +25,8 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 26px;
-    text-align: center;
+    margin-left: 425px;
+    
 
 }
 
@@ -42,25 +52,33 @@
 .Project_containers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    grid-template-rows: repeat(2, 617px);
+    gap: 15px;
     justify-items: center;
+    max-width: 1250px;
 }
 
 .Project_containers_content {
     margin-left: 28px;
+    margin-right: 31px;
+
 }
 
 .Project_container_name {
+    font-family: Poppins;
     font-size: 28px;
     font-weight: 500;
     line-height: 26px;
+    text-align: left;
+    margin-top: 25px;
+    color: #000000;
+    ;
 
-    margin-top: 27px;
 
 }
 
 .Project_container_context {
-    margin-top: 17px;
+    margin-top: 16px;
 
     font-family: Poppins;
     font-size: 18px;
@@ -68,28 +86,64 @@
     line-height: 26px;
     text-align: left;
 
+
 }
 
 .Project_container_stack {
     margin-top: 12px;
 
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
 
+
+
+
+}
+
+.tech_items {
+
+    font-size: 14px;
+    font-weight: 300;
+
+
+
 }
 
 .Project_container_link {
     margin-top: 21px;
+    margin-right: 22px;
+    margin-left: -2px;
+    text-decoration: underline;
+
+    display: flex;
+    justify-content: space-between;
+   
 
     a {
         color: black;
-        margin-right: 48px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        display: inline-flex; 
+        align-items: center; 
+        
+        
+       
+        
+
+        
+
     }
 
     img {
         width: 20px;
-        margin-right: 3px;
+        margin-right: 12px;
+        
     }
 }

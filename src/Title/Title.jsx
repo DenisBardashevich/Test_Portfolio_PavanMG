@@ -5,7 +5,7 @@ const Title = () => {
     return (
         <>
             <div className="Title">
-                <p>Hi 👋,<br />
+                <p>Hi <span>👋,</span><br />
                     My name is<br />
                     Pavan MG<br />
                     I build things for web</p>

@@ -10,12 +10,12 @@ import Project_link from './img/icon/link.png'
 
 
 const ProjectData = [
-    { src: img_1, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
-    { src: img_2, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
-    { src: img_3, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
-    { src: img_4, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
-    { src: img_5, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
-    { src: img_6, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "Tech stack : HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_1, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_2, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_3, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_4, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_5, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
+    { src: img_6, title: "Project Tile goes here", description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content", techStack: "HTML , JavaScript, SASS, React", liveLink: "#", codeLink: "#" },
 ];
 
 const Projects = () => {
@@ -32,7 +32,7 @@ const Projects = () => {
                         <div className="Project_containers_content">
                             <div className="Project_container_name">{project.title}</div>
                             <div className="Project_container_context">{project.description}</div>
-                            <div className="Project_container_stack">Tech stack: {project.techStack}</div>
+                            <div className="Project_container_stack">Tech stack : <span className='tech_items'>{project.techStack}</span></div>
                             <div className="Project_container_link">
                                 <a href={project.liveLink}><img src={Project_link} alt="link" /> Live Preview</a>
                                 <a href={project.codeLink}><img src={Project_GitHub} alt="GitHub" /> View Code</a>
